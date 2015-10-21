@@ -1,0 +1,237 @@
+body {
+    background-image:url(background.png); 
+    background-repeat:no-repeat; 
+    background-attachment:fixed;
+    font-family: sans-serif;
+    width: 1200px;
+    padding-top:70px;
+    overflow:-Scroll;
+    overflow-x:hidden
+    }
+a {
+  text-decoration: none;
+  color: #2e2828;
+}
+#navBar {
+    font-family:  Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+    background-color: white;
+    width: 1200px;
+    position: fixed;
+    top: 0px;
+    height: 80px;
+    left: 0px;
+    z-index: 3;
+}
+
+#home {
+  font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
+  font-weight: 700;
+  color: white;
+  position: absolute;
+  left: 50px;
+  background-color: #7e0300;
+  width: 210px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+}
+.nav {  
+  background-color: white;
+  width: 150px;
+  height: 80px;
+  text-align: center;
+  color: #2e2828;
+  line-height: 80px;
+}
+#ins{background: url(instagram-xxl.png) no-repeat 30px center;
+  width: 30px;
+  height: 30px;}
+
+#about {  
+  position: absolute;
+  left: 270px;
+}
+
+#resume {  
+  position: absolute;
+  left: 420px;
+}
+
+#edu{  
+  position: absolute;
+  left: 570px;
+}
+
+#exp{  
+  position: absolute;
+  left: 720px;
+}
+
+#skill{  
+  position: absolute;
+  left: 870px;
+}
+
+#leftBarBack {
+    width: 300px;
+    position: absolute;
+    left: 50px;
+    height: 520px;
+    top:80px;
+    background-color: white;
+    opacity: 0.4;
+    text-align: center;
+
+}
+
+#leftBar {
+    position: absolute;
+    left: 80px;
+    top:290px;
+    text-align: center;
+    font-size: 32pt;
+    color: #2e2828;
+    font-weight: 600;
+    font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
+
+}
+#contents {
+  background-color: white;
+  height: 1500px;
+  position: absolute;
+  top:500px;
+  width: 1200px;
+  left: 0px;
+}
+.content {
+    font-family:  Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+    color: #2e2828;
+    line-height: 25px;
+    width: 400px;
+}
+.subTitle {
+  font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
+  font-size: 30pt;
+  font-weight: 500;
+}
+.blank{
+  height: 90px;
+  width: 1200px;
+}
+#aboutID {
+    position: absolute;
+    top: -90px;
+}
+#aboutC {
+  position: absolute;
+  left: 350px;
+  background-color: #f7efef;
+  width: 600px;
+  height: 400px;
+}
+
+#aboutC p{
+  position:absolute;
+  bottom:30px;
+  padding: 50px;
+  padding-right: 150px;
+}
+
+#eduID {
+    position: absolute;
+    top: 330px;
+}
+
+#eduC {
+  position: absolute;
+  left: 350px;
+  top: 400px;
+  width: 480px;
+  height: 270px;
+  background-color: #9c3131;
+  color: white;
+
+}
+#eduC p{
+  position:absolute;
+  bottom:10px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+  padding-right: 70px;
+}
+#eduH {  position: absolute;
+  left: 170px;
+  top: 400px;
+  width: 180px;
+  height: 180px;
+  background-color: #9d8787;
+  color: white;}
+#eduH p{  position:absolute;
+  left: 10px;
+  bottom:40px;
+  text-align: center;
+}
+
+#expID {
+    position: absolute;
+    top: 600px;
+}
+#expC {
+  position: absolute;
+  left: 50px;
+  top: 670px;
+  width: 670px;
+  height: 330px;
+  background-color: #392e2e;
+  color: white;
+
+}
+
+#expC ul {
+  position: absolute;
+  bottom: 50px;
+}
+
+#skillID {
+    position: absolute;
+    top: 1000px;
+}
+#skillH{
+  position: absolute;
+  left: 460px;
+  top: 1000px;
+  width: 180px;
+  height: 180px;
+  background-color: #9c3131;
+  color: white;
+}
+#skillH p{  position:absolute;
+  left: 40px;
+  bottom:40px;
+  text-align: center;
+}
+
+#skillC {
+  color: black;
+  position: absolute;
+  right: 260px;
+  top: 1000px;
+  width: 300px;
+  height: 300px;
+  background-color: #9d8787;
+  color: white;
+}
+#skillC p {
+    position:absolute;
+  bottom:10px;
+  padding: 50px;
+  padding-left: 150px;
+}
+#photo {
+  float: left;
+  position: relative;
+  left: 50px;
+  height: 400px;
+}
+
+a:hover {color: #bea9a9;}
