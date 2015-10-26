@@ -1,0 +1,83 @@
+appletekiMacBook-Pro:workflow apple$ git checkout dev
+Switched to branch 'dev'
+appletekiMacBook-Pro:workflow apple$ git remote add origin https://github.com/weixivc/workflow.git
+appletekiMacBook-Pro:workflow apple$ git push origin dev
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 425 bytes | 0 bytes/s, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To https://github.com/weixivc/workflow.git
+ * [new branch]      dev -> dev
+appletekiMacBook-Pro:workflow apple$ git checkout master
+Switched to branch 'master'
+appletekiMacBook-Pro:workflow apple$ git branch
+  dev
+* master
+appletekiMacBook-Pro:workflow apple$ merge dev
+-bash: merge: command not found
+appletekiMacBook-Pro:workflow apple$ git merge dev
+Updating f903c46..0bb4e0a
+Fast-forward
+ liono.cts | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 liono.cts
+appletekiMacBook-Pro:workflow apple$ git push origin master
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/weixivc/workflow.git
+ * [new branch]      master -> master
+appletekiMacBook-Pro:workflow apple$ git checkout -b gh-pages
+Switched to a new branch 'gh-pages'
+appletekiMacBook-Pro:workflow apple$ touch index.html
+appletekiMacBook-Pro:workflow apple$ echo "hello, world" > index.html
+appletekiMacBook-Pro:workflow apple$ git add index.html
+appletekiMacBook-Pro:workflow apple$ git commit -m "Add index.html"
+[gh-pages 93a1362] Add index.html
+ 1 file changed, 1 insertion(+)
+ create mode 100644 index.html
+appletekiMacBook-Pro:workflow apple$ git push origin gh-pages
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 297 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/weixivc/workflow.git
+ * [new branch]      gh-pages -> gh-pages
+appletekiMacBook-Pro:workflow apple$ cd..
+-bash: cd..: command not found
+appletekiMacBook-Pro:workflow apple$ cd ..
+appletekiMacBook-Pro:a100-dev apple$ ls
+my-first-github-repo	test
+pw			workflow
+appletekiMacBook-Pro:a100-dev apple$ cd pw
+appletekiMacBook-Pro:pw apple$ cd workflow
+-bash: cd: workflow: No such file or directory
+appletekiMacBook-Pro:pw apple$ cd ..
+appletekiMacBook-Pro:a100-dev apple$ cd workflow
+appletekiMacBook-Pro:workflow apple$ checkout master
+-bash: checkout: command not found
+appletekiMacBook-Pro:workflow apple$ git merge gh-pages
+Already up-to-date.
+appletekiMacBook-Pro:workflow apple$ git checkout gh-pages
+Already on 'gh-pages'
+appletekiMacBook-Pro:workflow apple$ git merge master
+Already up-to-date.
+appletekiMacBook-Pro:workflow apple$ pit push origin gh-pages
+-bash: pit: command not found
+appletekiMacBook-Pro:workflow apple$ cd ..
+appletekiMacBook-Pro:a100-dev apple$ cd pw
+appletekiMacBook-Pro:pw apple$ git checkout -b gh-pages
+fatal: Not a git repository (or any of the parent directories): .git
+appletekiMacBook-Pro:pw apple$ git add index.html
+fatal: Not a git repository (or any of the parent directories): .git
+appletekiMacBook-Pro:pw apple$ touch index.html
+appletekiMacBook-Pro:pw apple$ git commit -m "Add index.html"
+fatal: Not a git repository (or any of the parent directories): .git
+appletekiMacBook-Pro:pw apple$ git add index.html
+fatal: Not a git repository (or any of the parent directories): .git
+appletekiMacBook-Pro:pw apple$ touch index.html
+appletekiMacBook-Pro:pw apple$ git add index.html
+fatal: Not a git repository (or any of the parent directories): .git
+appletekiMacBook-Pro:pw apple$ git checkout gh-pages
+fatal: Not a git repository (or any of the parent directories): .git
+appletekiMacBook-Pro:pw apple$ 
