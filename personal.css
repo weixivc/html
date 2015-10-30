@@ -1,5 +1,5 @@
 body {
-
+    background-image:url(background.png); 
     background-repeat:no-repeat; 
     background-attachment:fixed;
     font-family: sans-serif;
@@ -21,6 +21,10 @@ a {
     height: 80px;
     left: 0px;
     z-index: 3;
+}
+
+.link {
+  z-index: 5;
 }
 
 #home {

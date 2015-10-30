@@ -1,0 +1,131 @@
+body {
+    background-image:url(background.png); 
+    background-repeat:no-repeat; 
+    background-attachment:fixed;
+    position: relative; 
+}
+.absolute {
+    position: absolute;
+}
+
+#leftBarBack {
+    width: 300px;
+    position: absolute;
+    height: 500px;
+    background-color: white;
+    opacity: 0.6;
+    text-align: center;
+    left: 40px;
+
+}
+#name{
+	height: 160px;
+}
+#leftBar {
+    position: absolute;
+    left: 70px;
+    top:290px;
+    text-align: center;
+    font-size: 32pt;
+    color: #2e2828;
+    font-weight: 600;
+    font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
+
+}
+#section1 {
+    height:500px;}
+#section2 {
+    height:400px; 
+    background-color: #ffffff;}
+#section3 {
+    height:270px;
+    background-color: #d8d8d8;}
+#section41 {
+    height:270px;
+    background-color: #ffffff;}
+#section42 {
+    height:500px;
+    background-color: #ffffff;}
+#aboutC {
+  position: absolute;
+  left: 340px;
+  background-color: #f7efef;
+  width: 600px;
+  height: 400px;
+}
+#aboutC p{
+  position:absolute;
+  bottom:30px;
+  padding: 50px;
+  padding-right: 150px;
+}
+#eduC {
+  position: absolute;
+  left: 340px;
+  top: 1170px;
+  width: 480px;
+  height: 270px;
+  background-color: #9c3131;
+  color: white;
+
+}
+#eduC p{
+  position:absolute;
+  bottom:10px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+  padding-right: 70px;
+}
+#eduH {  position: absolute;
+  left: 170px;
+  top: 1170px;
+  width: 180px;
+  height: 180px;
+  background-color: #9d8787;
+  color: white;}
+#eduH p{  position:absolute;
+  left: 10px;
+  bottom:40px;
+  text-align: center;
+}
+#expC {
+  position: absolute;
+  left: 50px;
+  top: 1440px;
+  width: 670px;
+  height: 330px;
+  background-color: #392e2e;
+  color: white;
+
+}
+
+#expC ul {
+  position: absolute;
+  bottom: 50px;
+}
+.home {
+	background-color: red;
+}
+.navItem {
+text-align: left;
+	 	width: 150px;
+
+}
+#photo {
+    position: absolute;
+    top: 500px;
+    left: 40px;
+	height: 400px;
+}
+.container {
+ /*   background-color: white;*/
+}
+.about {
+    left: 300px;
+}
+.row2 {
+    top:860px;
+}
+.col-sm-4 {
+    /*background-color: white;*/
+}

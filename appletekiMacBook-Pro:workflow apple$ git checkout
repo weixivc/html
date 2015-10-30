@@ -1,0 +1,54 @@
+705681922461:pw apple$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   personal.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+705681922461:pw apple$ git checkout dev
+M	personal.css
+Switched to branch 'dev'
+705681922461:pw apple$ remote add origin https://github.com/weixivc/html
+-bash: remote: command not found
+705681922461:pw apple$ git remote add origin https://github.com/weixivc/html
+fatal: remote origin already exists.
+705681922461:pw apple$ push origin dev
+-bash: push: command not found
+705681922461:pw apple$ git push origin dev
+Everything up-to-date
+705681922461:pw apple$ git checkout master
+M	personal.css
+Switched to branch 'master'
+705681922461:pw apple$ git merge dev
+Already up-to-date.
+705681922461:pw apple$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   personal.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+705681922461:pw apple$ git add *
+705681922461:pw apple$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   personal.css
+
+705681922461:pw apple$ git commit -m "Remove background"
+[master 4b6cff9] Remove background
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+705681922461:pw apple$ git push origin gh-pages
+Counting objects: 10, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.60 KiB | 0 bytes/s, done.
+Total 6 (delta 4), reused 0 (delta 0)
+To https://github.com/weixivc/html.git
+   47918e5..dff77a2  gh-pages -> gh-pages
+705681922461:pw apple$ 
